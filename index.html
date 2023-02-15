@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html style="margin: 0; padding: 0">
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picnic/7.1.0/picnic.min.css" integrity="sha512-HZgZOfcUw1rxWuEBlzDis5U4HlbzR0wcWmb3FrLSKV6uhZiZpT9JSTzPJplHDmJZJFNfAReW+iDELJ1kADYHtA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 </head>
-<body>
-	<div style="text-align: center; background: url(menu.png)">
-	<p class="center">ASHDERHIWRUOIRHGO</p>
+<body style="margin: 0; padding: 0; background: #001">
+	<div style="margin: 0; width: 100vw; max-width:100%; height: 56vw; text-align: center; background: url(/menu.png)">
+	<h1 class="animate__animated animate__backInRight animate__bounce center" style="color: #eee; position: relative; top: 10vh;">Ilhas do Conhecimento: Jogo Digital Feito Para Diminuir O Defcit De Aprendizado Das Crianças Na Pandemia</h1>
+	<button href="/Ilhas%20do%20Conhecimento.zip">Baixe Agora!</button>
 	</div>
-	<div class="flex two">
-	<h1>Lorem Ipsum ndalkwedkljohwe khkçnek fkh erjfelçkerhkhg vklsehvkl sdnvklndjgkbs dkjgbjd hgjkbgf vkjdnfgkjh eifhkrlghrekgvnjkergS</h1>
-	<img src="menu.png"> 
+	<div class="flex two" style="position: relative; top: 40vh;"> 
+	<h1 class="animate_when_see" style="color: #eee;">Devolvendo Às Crianças O Que A Pandemia As Tomou</h1>
 	</div>
+	<script>
+	 var windowTop = $(window).scrollTop();
+		$(window).on('scroll', function () {
+	 		 var windowTop = $(window).scrollTop();
+			 var offsetTop = $('.animate_when_see').offset().top;
+             var outerHeight = $(this).outerHeight(true);
+			 console.log( windowTop > (offsetTop - 50), windowTop < ( offsetTop + outerHeight))
+             if(windowTop > offsetTop-window.innerHeight && windowTop < ( offsetTop + outerHeight)) {
+			  	$('.animate_when_see').addClass('animate__animated animate__backInRight animate__bounce')  
+			 }
+		});
+	</script>
 </body>
 </html>
