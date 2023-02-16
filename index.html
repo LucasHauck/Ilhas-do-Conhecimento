@@ -31,31 +31,36 @@
 	</div>
 	<div style="min-height:40vh"></div>
 	<div class="flex two" style=""> 
-	<h1 class="animate_when_see" style="margin: 10px; font-size: var(--font-size); color: #ccc;">Devolvendo Às Crianças O Que A Pandemia As Tomou...</h1>
+	<h1 class="animate_when_see_right" style="margin: 10px; font-size: var(--font-size); color: #ccc;">Devolvendo Às Crianças O Que A Pandemia As Tomou...</h1>
 	</div>
 	<div style="min-height: 40vh;"> 
 	</div>
 	<div class="flex two" style=""> 
-	<h1 class="animate_when_see" style="margin: 10px; font-size: var(--font-size); color: #ccc;">..Com Originalidade E Inovação, Mas Sem Abandonar As Bases Teoricas E Meteodologicas...</h1>
+	<h1 class="off-half animate_when_see_left" style=" font-size: var(--font-size); color: #ccc;">..Com Originalidade E Inovação, Mas Sem Abandonar As Bases Teoricas E Meteodologicas...</h1>
 	</div>
 	<div style="min-height: 40vh;"> 
 	</div>
 	<div class="flex two" style=""> 
-	<h1 class="animate_when_see" style="margin: 10px; font-size: var(--font-size); color: #ccc;">..Apresentamos O Nosso Projeto, Com Objetivo De Mudar O Jeito De Ensino Nas Escolas</h1>
+	<h1 class="animate_when_see_right" style="margin: 10px; font-size: var(--font-size); color: #ccc;">..Apresentamos O Nosso Projeto, Com Objetivo De Mudar O Jeito De Ensino Nas Escolas</h1>
 	</div>
 	<div style="min-height: 40vh;"> 
 	</div>
 	<script>
 		function animate(){
-			$('.animate_when_see').each(function (i, obj) {
-		 		var windowTop = $(window).scrollTop();
+			var name = ''
+			function eachfrom(i, obj){
+				var windowTop = $(window).scrollTop();
 				var offsetTop = $(this).offset().top;
-	            var outerHeight = $(this).outerHeight(true);
+				var outerHeight = $(this).outerHeight(true);
 				console.log( windowTop > (offsetTop - 50), windowTop < ( offsetTop + outerHeight))
-	            if(windowTop > offsetTop-window.innerHeight && windowTop < ( offsetTop + outerHeight)) {
-				 	$(this).addClass('animate__animated animate__backInRight animate__bounce')  
+				if(windowTop > offsetTop-window.innerHeight && windowTop < ( offsetTop + outerHeight)) {
+				 	$(this).addClass('animate__animated ' + name + ' animate__bounce')  
 				}
-			 })
+			}
+			name = 'animate__backInRight'
+			$('.animate_when_see_right').each(eachfrom)
+			name = 'animate__backInLeft'
+			$('.animate_when_see_left').each(eachfrom)
 		}
 		$(window).on('scroll', animate);
 		animate()
