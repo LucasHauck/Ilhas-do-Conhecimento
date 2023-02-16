@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html style="margin: 0; padding: 0">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picnic/7.1.0/picnic.min.css" integrity="sha512-HZgZOfcUw1rxWuEBlzDis5U4HlbzR0wcWmb3FrLSKV6uhZiZpT9JSTzPJplHDmJZJFNfAReW+iDELJ1kADYHtA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 </head>
 <body style="position:absolute; margin: 0; padding: 0; background: #001">
-	<div style="margin: 0; width: 100vw; height: 56vw; max-width:100%;background-size: contain;background-repeat: no-repeat;text-align: center; background-image: url(menu.png)">
-	<h1 class="animate__animated animate__backInRight animate__bounce center" style="color: #eee; position: relative; top: 10vh;">Ilhas do Conhecimento: Jogo Digital Feito Para Diminuir O Defcit De Aprendizado Das Crianças Na Pandemia</h1>
+	<div style="margin: 0; width: 100vw; height: 56vw; max-width:100%;     background-size: contain;
+    background-repeat: no-repeat;text-align: center; background-image: url(Documents/menu.png)">
+	<h1 class="animate_when_see center" style="font-size: min(7vw, 7vh); color: #ccc; position: relative; top: 5vh;">Ilhas do Conhecimento: Jogo Digital Feito Para Diminuir O Defcit De Aprendizado Das Crianças Na Pandemia</h1>
 	<a href="Ilhas%20do%20Conhecimento.zip" download="Ilhas Do Conhecimento.zip"><button style="position:relative; top: 20vh">Baixe Agora!</button></a>
 	</div>
-	<div class="flex two" style="position: relative; top: 40vh;"> 
-	<h1 class="animate_when_see" style="color: #eee;">Devolvendo Às Crianças O Que A Pandemia As Tomou</h1>
+	<div style="min-height:40vh"></div>
+	<div class="flex two" style=""> 
+	<h1 class="animate_when_see" style="color: #ccc;">Devolvendo Às Crianças O Que A Pandemia As Tomou</h1>
+	</div>
+	<div style="min-height: 40vh;"> 
 	</div>
 	<script>
-	 var windowTop = $(window).scrollTop();
-		$(window).on('scroll', function () {
-	 		 var windowTop = $(window).scrollTop();
-			 var offsetTop = $('.animate_when_see').offset().top;
-             var outerHeight = $(this).outerHeight(true);
-			 console.log( windowTop > (offsetTop - 50), windowTop < ( offsetTop + outerHeight))
-             if(windowTop > offsetTop-window.innerHeight && windowTop < ( offsetTop + outerHeight)) {
-			  	$('.animate_when_see').addClass('animate__animated animate__backInRight animate__bounce')  
-			 }
-		});
+		function animate(){
+			$('.animate_when_see').each(function (i, obj) {
+		 		var windowTop = $(window).scrollTop();
+				var offsetTop = $(this).offset().top;
+	            var outerHeight = $(this).outerHeight(true);
+				console.log( windowTop > (offsetTop - 50), windowTop < ( offsetTop + outerHeight))
+	            if(windowTop > offsetTop-window.innerHeight && windowTop < ( offsetTop + outerHeight)) {
+				 	$(this).addClass('animate__animated animate__backInRight animate__bounce')  
+				}
+			 })
+		}
+		$(window).on('scroll', animate);
+		animate()
+
 	</script>
 </body>
 </html>
