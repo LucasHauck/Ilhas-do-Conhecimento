@@ -95,7 +95,7 @@ async function assetsLoad(){
 	document.body.onkeyup = (el) => {
 		keys[el.key.toUpperCase()] = justReleased
 	}
-	document.body.ontouchend = (e) => {
+	document.body.ontouchmove = (e) => {
 		justClicked = true;
         	var touch = e.touches || e.originalEvent.changedTouches;
         	tx = touch[0].pageX
