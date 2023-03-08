@@ -97,7 +97,7 @@ async function assetsLoad(){
 	}
 	document.body.ontouchend = (e) => {
 		justClicked = true;
-        var touch = e.touches[0]
+        var touch = e.touches[0] || e.originalEvent.changedTouches[0]
         tx = touch.pageX
         ty = touch.pageY
 	}
