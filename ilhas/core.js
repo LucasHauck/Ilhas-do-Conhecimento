@@ -97,9 +97,9 @@ async function assetsLoad(){
 	}
 	document.body.ontouchend = (e) => {
 		justClicked = true;
-        var touch = e.touches[0] || e.originalEvent.changedTouches[0]
-        tx = touch.pageX
-        ty = touch.pageY
+        	var touch = e.touches || e.originalEvent.changedTouches;
+        	tx = touch[0].pageX
+        	ty = touch[0].pageY
 	}
 	document.querySelector('canvas').onmousedown = (e) => {
 		let rect = e.target.getBoundingClientRect();
