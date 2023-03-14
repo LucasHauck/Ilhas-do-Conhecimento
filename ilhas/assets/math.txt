@@ -1,0 +1,40 @@
+A partir de certo período da história, o ser humano sentiu a necessidade de contar para realizar tarefas diárias: contar quantas pessoas faziam parte do grupo, quantos animais foram mortos em uma caçada, quantas sementes foram cultivadas, entre outras ocasiões.
+Os números que surgiram dessa necessidade de fazer contagens receberam o nome de números naturais, que formam o conjunto dos números naturais, representado pela letra N. Como todo número natural possui um sucessor, o conjunto é infinito.\n\n N = {0, 1, 2, 3, 4, 5, ...}
+
+"Vamos imaginar uma reta, com ela contendo todos os números citados acima, dispostos horizontalmente, um após o outro, da esquerda para a direita. Da mesma forma que a reta segue infinitamente para a direita, ela seguirá para a esquerda, com números negativos.\n\n Esses números, somados aos naturais, formam o conjunto dos números inteiros, representado pela letra Z.\n\nZ = {..., -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, ...}
+O conjunto dos números racionais abrange todos os números que podem ser representados na forma a/b, sendo b diferente de 0.\n\n Os números são representados em forma de fração, pois \"racionais\" vem de razão, que é uma fração. O conjunto é representado pela letra Q.\n\n Q = {x | (tal que) x equivale a a/b, com a e b pertencendo a Z, e b diferente de 0}. 
+
+Como esse conjunto é representado por números que podem ser divididos por outros, algumas dessas divisões acabam não tendo um quociente que possui uma parte decimal finita, em alguns casos, até não periódica. Esses casos são chamados de dízimas, periódicas quando há um padrão na parte decimal e não periódicas quando esse padrão não existe.
+Por exemplo, \"0,333...\" é uma dízima periódica simples, pois o número \"3\" se repete e só há ele após a vírgula, já \"2,4121212...\" é uma dízima periódica composta, já que há o número \"4\", que não se repete. \n\nPor fim, o número \"3,141592...\" o Pi, é uma dízima não periódica, pois nenhum algarismo se repete após a virgula. 
+
+
+Definimos como expressão algébrica uma expressão que contém letras e números, separados por operações básicas da Matemática, como a adição e a multiplicação. Os números e letras, também conhecidas como variáveis, são utilizados para representar valores desconhecidos.
+As expressões algébricas são bastante comuns no estudo das equações e na escrita de fórmulas da Matemática e áreas afins. Caso a expressão algébrica possua um único termo algébrico, ela é conhecida como monômio.
+
+Uma expressão algébrica é conhecida como monômio quando ela possui somente um termo algébrico, com letras e números separados apenas por uma multiplicação entre eles. Um monômio é dividido em duas partes: o coeficiente, que é o número que está multiplicando a letra, e a parte literal, que é a variável e seu expoente.
+Por exemplo:\n\na) 2x^3 -> coeficiente é igual a 2 e a parte literal é igual a x^3.\n\nb) 4ab -> coeficiente é igual a 4 e a parte literal é igual a ab.\n\n
+
+Quando a expressão algébrica possui mais de um termo algébrico, ela é conhecida como polinômio. Um polinômio com dois termos se chama binômio e um com três termos se chama quadrinômio. Um polinômio nada mais é do que a soma ou a diferença entre monômios. Por exemplo:\n\na) 5mn - 3 (Binômio)\n\nb) 2x^2 + 2x + 3 (Trinômio)\n\nc) 2ab - 4ab^2 + 2a - 4b + 1
+Para se descobrir o grau de um polinômio é necessário somar os expoentes das letras que compõem cada termo. Se houve repetição de letras, a maior será utilizada na soma.\n\na) 5mn - 3. É um polinômio do segundo grau. (5m^1n^1 - 3
+
+Em uma expressão algébrica, quando há termos semelhantes, é possível realizar a simplificação dessa expressão por meio de operações com os coeficientes dos termos semelhantes. Por exemplo:\n\n5xy^2 + 10x - 3xy + 4x^2y - 2x^2y^2 + 5x - 3xy + 9xy^2 - 4x^2y + y
+Para simplificar, vamos identificar os termos semelhantes, ou seja, termos que possuem mesma parte literal.\n\n5xy^2 + 10x - 3xy + 4x^2y - 2x^2y^2 + 5x - 3xy + 9xy^2 - 5x^2y\n\nRealizaremos as operações entre os termos semelhantes:\n\n5xy^2 + 9xy^2 = 14xy^2\n\n10x + 5x = 15x\n\n-3xy -3xy = -6xy\n\n
+
+O termo -2x^2y^2 não possui nenhum termo semelhante a ele, logo a expressão algébrica simplificada será:\n\n-2x^2y^2 + 14xy^2 + 15x - 6xy -x^2y \n\nRealizar adição ou subtração de expressões algébricas nada mais é do que simplificar a expressão, portanto só é possível operar com os termos algébricos que são semelhantes. 
+Já na multiplicação, é necessário utilizar a propriedade distributiva entre os termos, conforme os exemplos a seguir:\n\nAdição:\n\n(2x^2 + 3xy - 5) + (3x^2 - xy + 2)\n\n2x^2 + 3xy - 5 + 3x^2 - xy + 2\n\n5x^2 +2xy -3\n\n
+
+O termo -2x^2y^2 não possui nenhum termo semelhante a ele, logo a expressão algébrica simplificada será:\n\n-2x^2y^2 + 14xy^2 + 15x - 6xy -x^2y \n\nRealizar adição ou subtração de expressões algébricas nada mais é do que simplificar a expressão, portanto só é possível operar com os termos algébricos que são semelhantes. 
+Já na multiplicação, é necessário utilizar a propriedade distributiva entre os termos, conforme os exemplos a seguir:\n\nAdição:\n\n(2x^2 + 3xy - 5) + (3x^2 - xy + 2)\n\n2x^2 + 3xy - 5 + 3x^2 - xy + 2\n\n5x^2 +2xy -3\n\n
+
+
+Produtos notáveis são multiplicações de polinômios. Existem cinco produtos notáveis mais relevantes: quadrado da soma, quadrado da diferença, produto da soma pela diferença, cubo da soma e cubo da diferença. QUADRADO DA SOMA\n\n(x + a)(x + a)\n\n
+Sua representação por potência desse produto é a seguinte:\n\n(x + a)^2\n\nA solução desse produto notável sempre será o polinômio a seguir:\n\nx^2 + 2xa + a^2\n\nExemplo:\n\n(x + 7)^2 = x^2 + 2x*7 + 7^2 = x^2 + 14x + 49\n\n
+
+QUADRADO DA DIFERENÇA\n\n(x - a)(x - a)\n\nEsse produto pode ser escrito da seguinte maneira:\n\n(x - a)^2\n\nO seu resultado é o seguinte:\n\n(x - a)^2 = x^2 -2xa + a^2\n\nPerceba que a única diferença entre os resultados do quadrado da soma e da diferença é um sinal negativo no termo do meio.
+PRODUTO DA SOMA PELA DIFERENÇA\n\n(x + a)(x - a)\n\nSua solução sempre será determinada pela seguinte expressão:\n\n(x + a)(x - a) = x^2 - a^2\n\nPor exemplo:\n\n(xy + 4)(xy - 4) = (xy)^2 - 16
+
+CUBO DA SOMA\n\nCom a propriedade distributiva, é possível criar uma \"fórmula\" também para produtos com o seguinte formato:\n\n(x + a)(x + a)(x + a)\n\nEle é escrito da seguinte maneira:\n\n(x + a)^3
+Por meio da propriedade distributiva e simplificando o resultado, encontraremos o seguinte para esse produto notável:\n\n(x + a)^3 = x^3 + 3x^2a + 3xa^2 + a^3\n\nPodemos calcular (x + 5)^3, por exemplo, facilmente da seguinte maneira:\n\n(x + 5)^3 = x^3 + 3x^25 + 3x5^2 + 5^3\n\nx^3 + 15x^2 + 75x + 125
+
+CUBO DA DIFERENÇA\n\nO cubo da diferença é o produto entre os seguintes polinômios:\n\n(x - a)(x - a)(x - a)\n\nPor meio da propriedade distributiva e simplificando os resultados, encontraremos o seguinte resultado para esse produto:\n\n(x - a)^3 = x^3 - 3x^2a + 3xa^2 - a^3
+\n\nVamos calcular como exemplo o seguinte cubo da diferença:\n\n(x - 2y)^3\n\n(x - 2y)^3 = x^3 - 3x^2 2y + 3x(2y)^2 - (2y)^3\n\nx^3 - 3x^2*2y + 3x4y^2 - 8y^3\n\nx^3 - 6x^2y + 12xy^2 -8y^3\n\n

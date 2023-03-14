@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'slkscr';
+	src: url('assets/slkscr.ttf');
+}
+canvas {
+	font-smooth: never;
+    -webkit-font-smoothing : none;
+}
