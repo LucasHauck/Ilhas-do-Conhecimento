@@ -1,0 +1,17 @@
+[
+
+["Apesar do crescimento do PIB ao longo dos anos, o Brasil é considerado um país com baixo desenvolvimento, principalmente em virtude da:","distribuição desigual de renda entre a população.","existência de muitas áreas ocupadas por florestas densas.","predominância de empresas estatais na economia nacional.","extensão territorial, o que dificulta o acesso de todos a suas riquezas.", 1 , false],
+
+["Leia o texto a seguir e assinale a afirmativa incorreta:\n\n\"A globalização é, de certa forma, o ápice do processo de internacionalização do mundo capitalista. [...] No fim do século XX e graças aos avanços da ciência, produziu-se um sistema de técnicas presidido pelas técnicas da informação, que passaram a exercer um papel de elo entre as demais, unindo-as e assegurando ao novo sistema técnico uma presença planetária.\"","Houve um aumento do desemprego, em função do uso de tecnologias nos processos produtivos.","O encurtamento de distâncias é uma consequência benéfica da globalização, pois torna o transporte de recursos, produtos e serviços mais próximos.","Em contrapartida, a dependência tecnológica dos países subdesenvolvidos é uma consequência ruim para essas nações, já que não tem a capacidade de produzir produtos de alta tecnologia.","A imposição de padrões culturais dos países centrais sobre os periféricos é um aspecto positivo, pois evita conflitos por causa de discordâncias.", 4 , false],
+
+["Sobre a afirmativa a seguir, assinale:\n\n\"Regionalização em países Centrais e Periféricos data do final do século XIX, no contexto do Imperialismo e Neocolonialismo na África e Ásia.\"","Verdadeiro ","Falso", 1 , true],
+
+["Sobre a afirmativa a seguir, assinale:\n\n\"A regionalização do mundo torna possível compreender como um fenômeno se distribui no espaço ou as características comuns de determinadas áreas, por exemplo, sendo utilizados por governos, instituições de pesquisa e ensino, de modo a orientar políticas públicas, divulgação de dados e pesquisas científicas.\"","Verdadeiro","Falso", 1 , true],
+
+["Sobre a afirmativa a seguir, assinale:\n\n\"A Regionalização em países do Norte e do Sul  data do momento pós-Guerra Fria, nessa regionalização, a Austrália e Nova Zelândia, embora geograficamente estejam posicionadas no hemisfério geográfico sul, fazem parte do norte geoeconômico.\""," verdadeiro "," falso  ", 2 , true]
+
+
+
+
+
+      ]
