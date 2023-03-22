@@ -1,0 +1,36 @@
+Todo número inteiro é racional.
+Verdadeiro
+Falso
+a
+
+Todo número irracional é natural.
+Verdadeiro
+Falso
+b
+
+Todo número irracional também é um número real.
+Verdadeiro
+Falso
+a
+
+Todo número real também é um número racional.
+Verdadeiro
+Falso
+b
+
+O número V9 é um número irracional.( V = raiz)
+Verdadeiro
+Falso
+b
+
+Na multiplicação de dois números reais, a ordem dos fatores não altera o produto.
+Verdadeiro
+Falso
+a
+
+Existe um elemento neutro na adição e, também, na multiplicação de números reais. Esse elemento é o zero para ambas. 
+Verdadeiro
+Falso
+b
+
+

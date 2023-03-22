@@ -1,0 +1,14 @@
+"Quando as lâmpadas estão ligadas em série, se uma lâmpada queimar, as outras lâmpadas permanecem acesas." Essa afirmação está correta?
+verdadeiro
+falso
+b
+
+Para montar um pisca-pisca para sua árvore de Natal, Ana utilizou algumas lâmpadas, fios de cobre e uma fonte elétrica (rede elétrica) e associou todas as lâmpadas em série. Sobre as características do circuito montado por Ana, julgue a sentença abaixo como “Falsa” ou “Verdadeira”:\n\n"A corrente elétrica que passa pelos componentes desse circuito pode percorrer caminhos diferentes."
+verdadeiro
+falso
+b
+
+Sobre a sentença a seguir, marque a opção correta:\n\n"Em um circuito associado em paralelo, quando uma das lâmpadas queimar, as outras não deixaram de acender."
+verdadeiro
+falso
+a
