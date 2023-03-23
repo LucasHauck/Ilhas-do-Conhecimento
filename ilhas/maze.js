@@ -36,7 +36,7 @@ function mazeUpdate(){
 		player[4] = {
 			x: 160,
 			y: 96,
-			speed: 2,
+			speed: 4,
 			scrX: 32,
 			scrY: 100
 		}
